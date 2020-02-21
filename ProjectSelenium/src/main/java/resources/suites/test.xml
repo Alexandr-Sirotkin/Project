@@ -1,0 +1,40 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="1">
+
+  <test name="TestLoginPage" >
+    <classes>
+      <class name="itAcademy.tests.MAIL.LoginPageTest" />
+    </classes>
+  </test>
+
+  <test name="TestPasswordPage" >
+    <classes>
+      <class name="itAcademy.tests.MAIL.PasswordPageTest" />
+    </classes>
+  </test>
+
+  <test name="TestLetterPage" >
+    <classes>
+      <class name="itAcademy.tests.MAIL.LetterPageTest" />
+    </classes>
+  </test>
+
+  <test name="TestDraftsPage" >
+    <classes>
+      <class name="itAcademy.tests.MAIL.DraftsPageTest" />
+    </classes>
+  </test>
+
+  <test name="TestDeletedLettersPage" >
+    <classes>
+      <class name="itAcademy.tests.MAIL.DeletedLettersPageTest" />
+    </classes>
+  </test>
+
+  <test name="TestDiskPage" >
+    <classes>
+      <class name="itAcademy.tests.CLOUD.YandexDiskPageTest" />
+    </classes>
+  </test>
+</suite>

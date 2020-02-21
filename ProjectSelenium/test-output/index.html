@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>D:\JAVA\IT-Academy\12. Selenium\ProjectSelenium\src\main\java\resources\suites\test.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">6 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">22 methods,   22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="itAcademy.tests.MAIL.DeletedLettersPageTest" hash-for-method="DeleteTest">DeleteTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="itAcademy.tests.MAIL.DraftsPageTest" hash-for-method="DraftTest">DraftTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="itAcademy.tests.MAIL.LetterPageTest" hash-for-method="checkInboxByAddressTest">checkInboxByAddressTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="itAcademy.tests.MAIL.LetterPageTest" hash-for-method="checkInboxTest">checkInboxTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="itAcademy.tests.MAIL.DeletedLettersPageTest" hash-for-method="checkLetterTest">checkLetterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="itAcademy.tests.MAIL.LetterPageTest" hash-for-method="checkSentByAddressTest">checkSentByAddressTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="itAcademy.tests.MAIL.LetterPageTest" hash-for-method="checkSentTest">checkSentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="itAcademy.tests.MAIL.LoginPageTest" hash-for-method="createEmptyLoginTest">createEmptyLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="itAcademy.tests.MAIL.PasswordPageTest" hash-for-method="createEmptyPasswordTest">createEmptyPasswordTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="itAcademy.tests.CLOUD.YandexDiskPageTest" hash-for-method="createFolderTest">createFolderTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="itAcademy.tests.CLOUD.YandexDiskPageTest" hash-for-method="deleteFolderTest">deleteFolderTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="itAcademy.tests.CLOUD.YandexDiskPageTest" hash-for-method="downloadFileTest">downloadFileTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="itAcademy.tests.CLOUD.YandexDiskPageTest" hash-for-method="dragAndDropFileTest">dragAndDropFileTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="itAcademy.tests.MAIL.LoginPageTest" hash-for-method="invalidLoginCreationTest">invalidLoginCreationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="itAcademy.tests.MAIL.PasswordPageTest" hash-for-method="invalidPasswordCreationTest">invalidPasswordCreationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="itAcademy.tests.MAIL.LoginPageTest" hash-for-method="logInTest">logInTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="itAcademy.tests.MAIL.PasswordPageTest" hash-for-method="logInTest">logInTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="itAcademy.tests.MAIL.LetterPageTest" hash-for-method="sendLetterTest">sendLetterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="itAcademy.tests.MAIL.LetterPageTest" hash-for-method="sendLetterWithInvalidAddressTest">sendLetterWithInvalidAddressTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="itAcademy.tests.MAIL.LetterPageTest" hash-for-method="sendLetterWithoutTopicAndBodyTest">sendLetterWithoutTopicAndBodyTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="itAcademy.tests.CLOUD.YandexDiskPageTest" hash-for-method="shareFileLinkTest">shareFileLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="itAcademy.tests.MAIL.DraftsPageTest" hash-for-method="writeLetterAndSaveInDraftTest">writeLetterAndSaveInDraftTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">itAcademy.tests.CLOUD.YandexDiskPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createFolderTest">
+                  </a> <!-- createFolderTest -->
+                  <span class="method-name">createFolderTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteFolderTest">
+                  </a> <!-- deleteFolderTest -->
+                  <span class="method-name">deleteFolderTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="downloadFileTest">
+                  </a> <!-- downloadFileTest -->
+                  <span class="method-name">downloadFileTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dragAndDropFileTest">
+                  </a> <!-- dragAndDropFileTest -->
+                  <span class="method-name">dragAndDropFileTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shareFileLinkTest">
+                  </a> <!-- shareFileLinkTest -->
+                  <span class="method-name">shareFileLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">itAcademy.tests.MAIL.DeletedLettersPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteTest">
+                  </a> <!-- DeleteTest -->
+                  <span class="method-name">DeleteTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkLetterTest">
+                  </a> <!-- checkLetterTest -->
+                  <span class="method-name">checkLetterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">itAcademy.tests.MAIL.LetterPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkInboxByAddressTest">
+                  </a> <!-- checkInboxByAddressTest -->
+                  <span class="method-name">checkInboxByAddressTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkInboxTest">
+                  </a> <!-- checkInboxTest -->
+                  <span class="method-name">checkInboxTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSentByAddressTest">
+                  </a> <!-- checkSentByAddressTest -->
+                  <span class="method-name">checkSentByAddressTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSentTest">
+                  </a> <!-- checkSentTest -->
+                  <span class="method-name">checkSentTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendLetterTest">
+                  </a> <!-- sendLetterTest -->
+                  <span class="method-name">sendLetterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendLetterWithInvalidAddressTest">
+                  </a> <!-- sendLetterWithInvalidAddressTest -->
+                  <span class="method-name">sendLetterWithInvalidAddressTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendLetterWithoutTopicAndBodyTest">
+                  </a> <!-- sendLetterWithoutTopicAndBodyTest -->
+                  <span class="method-name">sendLetterWithoutTopicAndBodyTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">itAcademy.tests.MAIL.PasswordPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createEmptyPasswordTest">
+                  </a> <!-- createEmptyPasswordTest -->
+                  <span class="method-name">createEmptyPasswordTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidPasswordCreationTest">
+                  </a> <!-- invalidPasswordCreationTest -->
+                  <span class="method-name">invalidPasswordCreationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInTest">
+                  </a> <!-- logInTest -->
+                  <span class="method-name">logInTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">itAcademy.tests.MAIL.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createEmptyLoginTest">
+                  </a> <!-- createEmptyLoginTest -->
+                  <span class="method-name">createEmptyLoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLoginCreationTest">
+                  </a> <!-- invalidLoginCreationTest -->
+                  <span class="method-name">invalidLoginCreationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInTest">
+                  </a> <!-- logInTest -->
+                  <span class="method-name">logInTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">itAcademy.tests.MAIL.DraftsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DraftTest">
+                  </a> <!-- DraftTest -->
+                  <span class="method-name">DraftTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="writeLetterAndSaveInDraftTest">
+                  </a> <!-- writeLetterAndSaveInDraftTest -->
+                  <span class="method-name">writeLetterAndSaveInDraftTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\JAVA\IT-Academy\12. Selenium\ProjectSelenium\src\main\java\resources\suites\test.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestLoginPage&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;itAcademy.tests.MAIL.LoginPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestLoginPage --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestPasswordPage&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;itAcademy.tests.MAIL.PasswordPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestPasswordPage --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestLetterPage&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;itAcademy.tests.MAIL.LetterPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestLetterPage --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestDraftsPage&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;itAcademy.tests.MAIL.DraftsPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestDraftsPage --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestDeletedLettersPage&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;itAcademy.tests.MAIL.DeletedLettersPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestDeletedLettersPage --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestDiskPage&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;itAcademy.tests.CLOUD.YandexDiskPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestDiskPage --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestLoginPage (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestPasswordPage (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestLetterPage (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestDraftsPage (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestDeletedLettersPage (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestDiskPage (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(22);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'DeleteTest')
+data.setCell(0, 2, 'itAcademy.tests.MAIL.DeletedLettersPageTest')
+data.setCell(0, 3, 12287);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'DraftTest')
+data.setCell(1, 2, 'itAcademy.tests.MAIL.DraftsPageTest')
+data.setCell(1, 3, 12278);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'deleteFolderTest')
+data.setCell(2, 2, 'itAcademy.tests.CLOUD.YandexDiskPageTest')
+data.setCell(2, 3, 11259);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkInboxTest')
+data.setCell(3, 2, 'itAcademy.tests.MAIL.LetterPageTest')
+data.setCell(3, 3, 10877);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'shareFileLinkTest')
+data.setCell(4, 2, 'itAcademy.tests.CLOUD.YandexDiskPageTest')
+data.setCell(4, 3, 9626);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'dragAndDropFileTest')
+data.setCell(5, 2, 'itAcademy.tests.CLOUD.YandexDiskPageTest')
+data.setCell(5, 3, 5919);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'sendLetterWithoutTopicAndBodyTest')
+data.setCell(6, 2, 'itAcademy.tests.MAIL.LetterPageTest')
+data.setCell(6, 3, 4783);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'createFolderTest')
+data.setCell(7, 2, 'itAcademy.tests.CLOUD.YandexDiskPageTest')
+data.setCell(7, 3, 3660);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'sendLetterWithInvalidAddressTest')
+data.setCell(8, 2, 'itAcademy.tests.MAIL.LetterPageTest')
+data.setCell(8, 3, 3646);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'downloadFileTest')
+data.setCell(9, 2, 'itAcademy.tests.CLOUD.YandexDiskPageTest')
+data.setCell(9, 3, 2474);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'checkInboxByAddressTest')
+data.setCell(10, 2, 'itAcademy.tests.MAIL.LetterPageTest')
+data.setCell(10, 3, 2223);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'writeLetterAndSaveInDraftTest')
+data.setCell(11, 2, 'itAcademy.tests.MAIL.DraftsPageTest')
+data.setCell(11, 3, 2093);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'sendLetterTest')
+data.setCell(12, 2, 'itAcademy.tests.MAIL.LetterPageTest')
+data.setCell(12, 3, 1972);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'logInTest')
+data.setCell(13, 2, 'itAcademy.tests.MAIL.PasswordPageTest')
+data.setCell(13, 3, 1825);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'checkSentTest')
+data.setCell(14, 2, 'itAcademy.tests.MAIL.LetterPageTest')
+data.setCell(14, 3, 1375);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'checkSentByAddressTest')
+data.setCell(15, 2, 'itAcademy.tests.MAIL.LetterPageTest')
+data.setCell(15, 3, 1285);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'logInTest')
+data.setCell(16, 2, 'itAcademy.tests.MAIL.LoginPageTest')
+data.setCell(16, 3, 1063);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'checkLetterTest')
+data.setCell(17, 2, 'itAcademy.tests.MAIL.DeletedLettersPageTest')
+data.setCell(17, 3, 1049);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'invalidPasswordCreationTest')
+data.setCell(18, 2, 'itAcademy.tests.MAIL.PasswordPageTest')
+data.setCell(18, 3, 357);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'invalidLoginCreationTest')
+data.setCell(19, 2, 'itAcademy.tests.MAIL.LoginPageTest')
+data.setCell(19, 3, 355);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'createEmptyLoginTest')
+data.setCell(20, 2, 'itAcademy.tests.MAIL.LoginPageTest')
+data.setCell(20, 3, 334);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'createEmptyPasswordTest')
+data.setCell(21, 2, 'itAcademy.tests.MAIL.PasswordPageTest')
+data.setCell(21, 3, 254);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">itAcademy.tests.MAIL.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">checkPage</span>
+                <span class="method-start">11111 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">createEmptyLoginTest</span>
+                <span class="method-start">11197 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invalidLoginCreationTest</span>
+                <span class="method-start">11534 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logInTest</span>
+                <span class="method-start">11889 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">12953 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">itAcademy.tests.MAIL.PasswordPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">13620 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">checkPage</span>
+                <span class="method-start">24071 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">createEmptyPasswordTest</span>
+                <span class="method-start">25146 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invalidPasswordCreationTest</span>
+                <span class="method-start">25401 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logInTest</span>
+                <span class="method-start">25758 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">27583 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">itAcademy.tests.MAIL.LetterPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">28264 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">checkPage</span>
+                <span class="method-start">42602 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">sendLetterTest</span>
+                <span class="method-start">43653 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSentTest</span>
+                <span class="method-start">45626 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkInboxTest</span>
+                <span class="method-start">47001 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sendLetterWithInvalidAddressTest</span>
+                <span class="method-start">57878 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sendLetterWithoutTopicAndBodyTest</span>
+                <span class="method-start">61524 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSentByAddressTest</span>
+                <span class="method-start">66308 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkInboxByAddressTest</span>
+                <span class="method-start">67593 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">clear</span>
+                <span class="method-start">69816 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">72473 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">itAcademy.tests.MAIL.DraftsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">73197 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">checkPage</span>
+                <span class="method-start">100888 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">writeLetterAndSaveInDraftTest</span>
+                <span class="method-start">101928 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DraftTest</span>
+                <span class="method-start">104021 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">clear</span>
+                <span class="method-start">116299 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">127958 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">itAcademy.tests.MAIL.DeletedLettersPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">128630 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">checkPage</span>
+                <span class="method-start">159166 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkLetterTest</span>
+                <span class="method-start">160211 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DeleteTest</span>
+                <span class="method-start">161261 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">clear</span>
+                <span class="method-start">173548 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">214472 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">itAcademy.tests.CLOUD.YandexDiskPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">215149 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">checkPage</span>
+                <span class="method-start">230002 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">createFolderTest</span>
+                <span class="method-start">231041 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteFolderTest</span>
+                <span class="method-start">234701 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">downloadFileTest</span>
+                <span class="method-start">245960 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dragAndDropFileTest</span>
+                <span class="method-start">248434 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shareFileLinkTest</span>
+                <span class="method-start">254353 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">clear</span>
+                <span class="method-start">263979 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">265815 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

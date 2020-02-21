@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="22" passed="22">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="266490" started-at="2020-02-17T17:03:58 MSK" finished-at="2020-02-17T17:08:24 MSK">
+    <groups>
+    </groups>
+    <test name="TestLoginPage" duration-ms="13605" started-at="2020-02-17T17:03:58 MSK" finished-at="2020-02-17T17:04:12 MSK">
+      <class name="itAcademy.tests.MAIL.LoginPageTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:itAcademy.tests.MAIL.LoginPageTest@2b98378d]" name="openBrowser" is-config="true" duration-ms="11104" started-at="2020-02-17T17:03:58 MSK" finished-at="2020-02-17T17:04:09 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="checkPage()[pri:0, instance:itAcademy.tests.MAIL.LoginPageTest@2b98378d]" name="checkPage" is-config="true" duration-ms="78" started-at="2020-02-17T17:04:09 MSK" finished-at="2020-02-17T17:04:09 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPage -->
+        <test-method status="PASS" signature="createEmptyLoginTest()[pri:1, instance:itAcademy.tests.MAIL.LoginPageTest@2b98378d]" name="createEmptyLoginTest" duration-ms="334" started-at="2020-02-17T17:04:09 MSK" finished-at="2020-02-17T17:04:09 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEmptyLoginTest -->
+        <test-method status="PASS" signature="invalidLoginCreationTest()[pri:2, instance:itAcademy.tests.MAIL.LoginPageTest@2b98378d]" name="invalidLoginCreationTest" duration-ms="355" started-at="2020-02-17T17:04:09 MSK" finished-at="2020-02-17T17:04:10 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginCreationTest -->
+        <test-method status="PASS" signature="logInTest()[pri:3, instance:itAcademy.tests.MAIL.LoginPageTest@2b98378d]" name="logInTest" duration-ms="1063" started-at="2020-02-17T17:04:10 MSK" finished-at="2020-02-17T17:04:11 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:itAcademy.tests.MAIL.LoginPageTest@2b98378d]" name="closeBrowser" is-config="true" duration-ms="652" started-at="2020-02-17T17:04:11 MSK" finished-at="2020-02-17T17:04:12 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- itAcademy.tests.MAIL.LoginPageTest -->
+    </test> <!-- TestLoginPage -->
+    <test name="TestPasswordPage" duration-ms="14600" started-at="2020-02-17T17:04:12 MSK" finished-at="2020-02-17T17:04:26 MSK">
+      <class name="itAcademy.tests.MAIL.PasswordPageTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:itAcademy.tests.MAIL.PasswordPageTest@6a4f787b]" name="openBrowser" is-config="true" duration-ms="10451" started-at="2020-02-17T17:04:12 MSK" finished-at="2020-02-17T17:04:22 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="checkPage()[pri:0, instance:itAcademy.tests.MAIL.PasswordPageTest@6a4f787b]" name="checkPage" is-config="true" duration-ms="1075" started-at="2020-02-17T17:04:22 MSK" finished-at="2020-02-17T17:04:23 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPage -->
+        <test-method status="PASS" signature="createEmptyPasswordTest()[pri:1, instance:itAcademy.tests.MAIL.PasswordPageTest@6a4f787b]" name="createEmptyPasswordTest" duration-ms="254" started-at="2020-02-17T17:04:23 MSK" finished-at="2020-02-17T17:04:23 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEmptyPasswordTest -->
+        <test-method status="PASS" signature="invalidPasswordCreationTest()[pri:2, instance:itAcademy.tests.MAIL.PasswordPageTest@6a4f787b]" name="invalidPasswordCreationTest" duration-ms="357" started-at="2020-02-17T17:04:23 MSK" finished-at="2020-02-17T17:04:24 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordCreationTest -->
+        <test-method status="PASS" signature="logInTest()[pri:3, instance:itAcademy.tests.MAIL.PasswordPageTest@6a4f787b]" name="logInTest" duration-ms="1825" started-at="2020-02-17T17:04:24 MSK" finished-at="2020-02-17T17:04:26 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:itAcademy.tests.MAIL.PasswordPageTest@6a4f787b]" name="closeBrowser" is-config="true" duration-ms="637" started-at="2020-02-17T17:04:26 MSK" finished-at="2020-02-17T17:04:26 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- itAcademy.tests.MAIL.PasswordPageTest -->
+    </test> <!-- TestPasswordPage -->
+    <test name="TestLetterPage" duration-ms="44903" started-at="2020-02-17T17:04:26 MSK" finished-at="2020-02-17T17:05:11 MSK">
+      <class name="itAcademy.tests.MAIL.LetterPageTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:itAcademy.tests.MAIL.LetterPageTest@14bf9759]" name="openBrowser" is-config="true" duration-ms="14337" started-at="2020-02-17T17:04:26 MSK" finished-at="2020-02-17T17:04:41 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="checkPage()[pri:0, instance:itAcademy.tests.MAIL.LetterPageTest@14bf9759]" name="checkPage" is-config="true" duration-ms="1051" started-at="2020-02-17T17:04:41 MSK" finished-at="2020-02-17T17:04:42 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPage -->
+        <test-method status="PASS" signature="sendLetterTest()[pri:1, instance:itAcademy.tests.MAIL.LetterPageTest@14bf9759]" name="sendLetterTest" duration-ms="1972" started-at="2020-02-17T17:04:42 MSK" finished-at="2020-02-17T17:04:44 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendLetterTest -->
+        <test-method status="PASS" signature="checkSentTest()[pri:2, instance:itAcademy.tests.MAIL.LetterPageTest@14bf9759]" name="checkSentTest" duration-ms="1375" started-at="2020-02-17T17:04:44 MSK" finished-at="2020-02-17T17:04:45 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSentTest -->
+        <test-method status="PASS" signature="checkInboxTest()[pri:3, instance:itAcademy.tests.MAIL.LetterPageTest@14bf9759]" name="checkInboxTest" duration-ms="10877" started-at="2020-02-17T17:04:45 MSK" finished-at="2020-02-17T17:04:56 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInboxTest -->
+        <test-method status="PASS" signature="sendLetterWithInvalidAddressTest()[pri:4, instance:itAcademy.tests.MAIL.LetterPageTest@14bf9759]" name="sendLetterWithInvalidAddressTest" duration-ms="3646" started-at="2020-02-17T17:04:56 MSK" finished-at="2020-02-17T17:04:59 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendLetterWithInvalidAddressTest -->
+        <test-method status="PASS" signature="sendLetterWithoutTopicAndBodyTest()[pri:5, instance:itAcademy.tests.MAIL.LetterPageTest@14bf9759]" name="sendLetterWithoutTopicAndBodyTest" duration-ms="4783" started-at="2020-02-17T17:04:59 MSK" finished-at="2020-02-17T17:05:04 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendLetterWithoutTopicAndBodyTest -->
+        <test-method status="PASS" signature="checkSentByAddressTest()[pri:6, instance:itAcademy.tests.MAIL.LetterPageTest@14bf9759]" name="checkSentByAddressTest" duration-ms="1285" started-at="2020-02-17T17:05:04 MSK" finished-at="2020-02-17T17:05:06 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSentByAddressTest -->
+        <test-method status="PASS" signature="checkInboxByAddressTest()[pri:7, instance:itAcademy.tests.MAIL.LetterPageTest@14bf9759]" name="checkInboxByAddressTest" duration-ms="2223" started-at="2020-02-17T17:05:06 MSK" finished-at="2020-02-17T17:05:08 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInboxByAddressTest -->
+        <test-method status="PASS" signature="clear()[pri:0, instance:itAcademy.tests.MAIL.LetterPageTest@14bf9759]" name="clear" is-config="true" duration-ms="2657" started-at="2020-02-17T17:05:08 MSK" finished-at="2020-02-17T17:05:10 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clear -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:itAcademy.tests.MAIL.LetterPageTest@14bf9759]" name="closeBrowser" is-config="true" duration-ms="694" started-at="2020-02-17T17:05:10 MSK" finished-at="2020-02-17T17:05:11 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- itAcademy.tests.MAIL.LetterPageTest -->
+    </test> <!-- TestLetterPage -->
+    <test name="TestDraftsPage" duration-ms="55422" started-at="2020-02-17T17:05:11 MSK" finished-at="2020-02-17T17:06:07 MSK">
+      <class name="itAcademy.tests.MAIL.DraftsPageTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:itAcademy.tests.MAIL.DraftsPageTest@6500df86]" name="openBrowser" is-config="true" duration-ms="27691" started-at="2020-02-17T17:05:11 MSK" finished-at="2020-02-17T17:05:39 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="checkPage()[pri:0, instance:itAcademy.tests.MAIL.DraftsPageTest@6500df86]" name="checkPage" is-config="true" duration-ms="1039" started-at="2020-02-17T17:05:39 MSK" finished-at="2020-02-17T17:05:40 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPage -->
+        <test-method status="PASS" signature="writeLetterAndSaveInDraftTest()[pri:1, instance:itAcademy.tests.MAIL.DraftsPageTest@6500df86]" name="writeLetterAndSaveInDraftTest" duration-ms="2093" started-at="2020-02-17T17:05:40 MSK" finished-at="2020-02-17T17:05:42 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeLetterAndSaveInDraftTest -->
+        <test-method status="PASS" signature="DraftTest()[pri:2, instance:itAcademy.tests.MAIL.DraftsPageTest@6500df86]" name="DraftTest" duration-ms="12278" started-at="2020-02-17T17:05:42 MSK" finished-at="2020-02-17T17:05:54 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DraftTest -->
+        <test-method status="PASS" signature="clear()[pri:0, instance:itAcademy.tests.MAIL.DraftsPageTest@6500df86]" name="clear" is-config="true" duration-ms="11659" started-at="2020-02-17T17:05:54 MSK" finished-at="2020-02-17T17:06:06 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clear -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:itAcademy.tests.MAIL.DraftsPageTest@6500df86]" name="closeBrowser" is-config="true" duration-ms="661" started-at="2020-02-17T17:06:06 MSK" finished-at="2020-02-17T17:06:07 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- itAcademy.tests.MAIL.DraftsPageTest -->
+    </test> <!-- TestDraftsPage -->
+    <test name="TestDeletedLettersPage" duration-ms="86513" started-at="2020-02-17T17:06:07 MSK" finished-at="2020-02-17T17:07:33 MSK">
+      <class name="itAcademy.tests.MAIL.DeletedLettersPageTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:itAcademy.tests.MAIL.DeletedLettersPageTest@7085bdee]" name="openBrowser" is-config="true" duration-ms="30536" started-at="2020-02-17T17:06:07 MSK" finished-at="2020-02-17T17:06:37 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="checkPage()[pri:0, instance:itAcademy.tests.MAIL.DeletedLettersPageTest@7085bdee]" name="checkPage" is-config="true" duration-ms="1045" started-at="2020-02-17T17:06:37 MSK" finished-at="2020-02-17T17:06:38 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPage -->
+        <test-method status="PASS" signature="checkLetterTest()[pri:1, instance:itAcademy.tests.MAIL.DeletedLettersPageTest@7085bdee]" name="checkLetterTest" duration-ms="1049" started-at="2020-02-17T17:06:38 MSK" finished-at="2020-02-17T17:06:39 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLetterTest -->
+        <test-method status="PASS" signature="DeleteTest()[pri:2, instance:itAcademy.tests.MAIL.DeletedLettersPageTest@7085bdee]" name="DeleteTest" duration-ms="12287" started-at="2020-02-17T17:06:39 MSK" finished-at="2020-02-17T17:06:51 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteTest -->
+        <test-method status="PASS" signature="clear()[pri:0, instance:itAcademy.tests.MAIL.DeletedLettersPageTest@7085bdee]" name="clear" is-config="true" duration-ms="40924" started-at="2020-02-17T17:06:51 MSK" finished-at="2020-02-17T17:07:32 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clear -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:itAcademy.tests.MAIL.DeletedLettersPageTest@7085bdee]" name="closeBrowser" is-config="true" duration-ms="671" started-at="2020-02-17T17:07:32 MSK" finished-at="2020-02-17T17:07:33 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- itAcademy.tests.MAIL.DeletedLettersPageTest -->
+    </test> <!-- TestDeletedLettersPage -->
+    <test name="TestDiskPage" duration-ms="51341" started-at="2020-02-17T17:07:33 MSK" finished-at="2020-02-17T17:08:24 MSK">
+      <class name="itAcademy.tests.CLOUD.YandexDiskPageTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:itAcademy.tests.CLOUD.YandexDiskPageTest@31a5c39e]" name="openBrowser" is-config="true" duration-ms="14852" started-at="2020-02-17T17:07:33 MSK" finished-at="2020-02-17T17:07:48 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="checkPage()[pri:0, instance:itAcademy.tests.CLOUD.YandexDiskPageTest@31a5c39e]" name="checkPage" is-config="true" duration-ms="1039" started-at="2020-02-17T17:07:48 MSK" finished-at="2020-02-17T17:07:49 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPage -->
+        <test-method status="PASS" signature="createFolderTest()[pri:1, instance:itAcademy.tests.CLOUD.YandexDiskPageTest@31a5c39e]" name="createFolderTest" duration-ms="3660" started-at="2020-02-17T17:07:49 MSK" finished-at="2020-02-17T17:07:53 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createFolderTest -->
+        <test-method status="PASS" signature="deleteFolderTest()[pri:2, instance:itAcademy.tests.CLOUD.YandexDiskPageTest@31a5c39e]" name="deleteFolderTest" duration-ms="11259" started-at="2020-02-17T17:07:53 MSK" finished-at="2020-02-17T17:08:04 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteFolderTest -->
+        <test-method status="PASS" signature="downloadFileTest()[pri:3, instance:itAcademy.tests.CLOUD.YandexDiskPageTest@31a5c39e]" name="downloadFileTest" duration-ms="2474" started-at="2020-02-17T17:08:04 MSK" finished-at="2020-02-17T17:08:06 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadFileTest -->
+        <test-method status="PASS" signature="dragAndDropFileTest()[pri:4, instance:itAcademy.tests.CLOUD.YandexDiskPageTest@31a5c39e]" name="dragAndDropFileTest" duration-ms="5919" started-at="2020-02-17T17:08:06 MSK" finished-at="2020-02-17T17:08:12 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDropFileTest -->
+        <test-method status="PASS" signature="shareFileLinkTest()[pri:5, instance:itAcademy.tests.CLOUD.YandexDiskPageTest@31a5c39e]" name="shareFileLinkTest" duration-ms="9626" started-at="2020-02-17T17:08:12 MSK" finished-at="2020-02-17T17:08:22 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shareFileLinkTest -->
+        <test-method status="PASS" signature="clear()[pri:0, instance:itAcademy.tests.CLOUD.YandexDiskPageTest@31a5c39e]" name="clear" is-config="true" duration-ms="1836" started-at="2020-02-17T17:08:22 MSK" finished-at="2020-02-17T17:08:24 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clear -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:itAcademy.tests.CLOUD.YandexDiskPageTest@31a5c39e]" name="closeBrowser" is-config="true" duration-ms="675" started-at="2020-02-17T17:08:24 MSK" finished-at="2020-02-17T17:08:24 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- itAcademy.tests.CLOUD.YandexDiskPageTest -->
+    </test> <!-- TestDiskPage -->
+  </suite> <!-- Suite -->
+</testng-results>
